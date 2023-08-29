@@ -1,4 +1,4 @@
-package com.websocket;
+package kr.ho.ocpp.config;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.socket.TextMessage;

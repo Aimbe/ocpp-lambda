@@ -1,4 +1,4 @@
-package com.websocket;
+package kr.ho.ocpp.config;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
