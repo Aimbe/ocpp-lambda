@@ -10,6 +10,7 @@ import org.springframework.web.socket.config.annotation.WebSocketMessageBrokerCo
 @EnableWebSocketMessageBroker //웹 소켓 메시지를 다룰 수 있게 허용
 public class WebSocketStompConfig implements WebSocketMessageBrokerConfigurer {
 
+
     @Override
     public void configureMessageBroker(MessageBrokerRegistry config) {
         config.enableSimpleBroker("/topic"); //발행자가 "/topic"의 경로로 메시지를 주면 구독자들에게 전달
